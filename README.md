@@ -1,7 +1,7 @@
 # TryHackMe Walkthroughs
 
-The purpose of this repository is to document the solutions to the rooms and CTFs I've completed on the TryHackMe platform.
+The purpose of this repository is to document the step-by-step procedures for the rooms and CTFs I've completed on the TryHackMe platform.
 
-### ⚠️ Disclaimer
+## ⚠️ Disclaimer
 
-None of the write-ups contain the answers. Only the necessary steps to reach them will be provided.
+To serve as a helpful and educational resource, only the steps needed to achieve the solution will be provided.
