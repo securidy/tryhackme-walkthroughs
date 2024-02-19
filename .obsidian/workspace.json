@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "52d450a7aa5d7436",
+        "id": "997df7ec4bdcc27a",
         "type": "tabs",
         "children": [
           {
-            "id": "cac15026c4f3b005",
+            "id": "7ec6d291e8ee3138",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "burp-suite-the-basics/burp-suite-the-basics.md",
+                "file": "burp-suite-the-basics/write-up.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "05d10d2ad8fffaff",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "burp-suite-the-basics/burp-suite-the-basics.md",
+                "file": "burp-suite-the-basics/write-up.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "burp-suite-the-basics/burp-suite-the-basics.md",
+                "file": "burp-suite-the-basics/write-up.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "burp-suite-the-basics/burp-suite-the-basics.md"
+                "file": "burp-suite-the-basics/write-up.md"
               }
             }
           }
@@ -146,8 +147,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cac15026c4f3b005",
+  "active": "7ec6d291e8ee3138",
   "lastOpenFiles": [
+    "Task.md",
+    "burp-suite-the-basics/write-up.md",
     "README.md",
     "burp-suite-the-basics/burp-suite-the-basics.md",
     "Untitled.canvas",
