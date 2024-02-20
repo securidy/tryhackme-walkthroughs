@@ -5,7 +5,7 @@ An introduction to using Burp Suite for web application pentesting.
 ```
 Q: Let us start!
 
-```A: No answer needed.
+A: No answer needed.
 ```
 ## Task 2: What is Burp Suite?
 ```
