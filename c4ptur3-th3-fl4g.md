@@ -1,5 +1,5 @@
 # [c4ptur3-th3-fl4g](https://tryhackme.com/room/c4ptur3th3fl4g)
-### A beginner level CTF challenge.
+A beginner level CTF challenge.
 
 ## Task 1 - Translation & Shifting
 
@@ -89,3 +89,41 @@ Answer: Let's make this a bit trickier...
 ```
 
 ## Task 2 - Spectrograms
+
+### Question: Download the file
+* Upload the audio file to Audacity
+* Select Spectrogram
+```
+Answer: Super Secret Message
+```
+
+## Task 3 - Steganography
+
+### Question: Decode the image to reveal the answer.
+* Upload the JPG file to a steganographic decoder
+```
+Answer: SpaghettiSteg
+```
+
+## Task 4 - Security through obscurity
+
+### Question: Download and get 'inside' the file. What is the first filename & extension?
+```
+binwalk -e meme.jpg
+```
+* This command extract information from the downloaded image file
+  * One file stands out
+```
+Answer: hackerchat.png
+```
+
+---
+
+### Question: Get inside the archive and inspect the file carefully. Find the hidden text.
+```
+strings hackerchat.png
+```
+* This command pulls strings from the specified file
+```
+Answer: "AHH_YOU_FOUND_ME!" 
+```
