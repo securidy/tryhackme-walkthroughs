@@ -8,57 +8,43 @@ A beginner level CTF challenge.
 ```
 Answer: can you capture the flag?
 ```
-
 ---
-
 ### Question: 01101100 01100101 01110100 01110011 00100000 01110100 01110010 01111001 00100000 01110011 01101111 01101101 01100101 00100000 01100010 01101001 01101110 01100001 01110010 01111001 00100000 01101111 01110101 01110100 00100001
 * Binary (base-2) numerical system
 ```
 Answer: lets try some binary out!
 ```
-
 ---
-
 ### Question: MJQXGZJTGIQGS4ZAON2XAZLSEBRW63LNN5XCA2LOEBBVIRRHOM======
 * Base32 encoding method that is based on the base-32 numerical system
 ```
 Answer: base32 is super common in CTF's
 ```
-
 ---
-
 ### Question: RWFjaCBCYXNlNjQgZGlnaXQgcmVwcmVzZW50cyBleGFjdGx5IDYgYml0cyBvZiBkYXRhLg==
 * Base64 encoding method that is based on the base-64 numerical system
 ```
 Answer: Each Base64 digit represents exactly 6 bits of data.
 ```
-
 ---
-
 ### Question: 68 65 78 61 64 65 63 69 6d 61 6c 20 6f 72 20 62 61 73 65 31 36 3f
 * Hexadecimal number system that has a base value equal to 16
 ```
 Answer: hexadecimal or base16?
 ```
-
 ---
-
 ### Question: Ebgngr zr 13 cynprf!
 * ROT13 cipher that replaces a character with the 13th character after it in the latin alphabet
 ```
 Answer: Rotate me 13 places!
 ```
-
 ---
-
 ### Question: *@F DA:? >6 C:89E C@F?5 323J C:89E C@F?5 Wcf E:>6DX
 * ROT47 cipher is a variant of ROT13 that is suitable for ASCII characters
 ```
 Answer: You spin me right round baby right round (47 times)
 ```
-
 ---
-
 ### Question:
 ### - . .-.. . -.-. --- -- -- ..- -. .. -.-. .- - .. --- -.
 ### . -. -.-. --- -.. .. -. --.
@@ -66,17 +52,13 @@ Answer: You spin me right round baby right round (47 times)
 ```
 Answer: TELECOMMUNICATION ENCODING
 ```
-
 ---
-
 ### Question: 85 110 112 97 99 107 32 116 104 105 115 32 66 67 68
 * Decimal encoding scheme
 ```
 Answer: Unpack this BCD
 ```
-
 ---
-
 ### Question: LS0tLS0gLi0tLS0gLi0tLS0gLS0tLS0gLS0tLS0gLi0tLS0gLi0tLS0gLS0tLS0KLS0tLS0gLi0tLS0gLi0tLS0gLS0tLS0gLS0tLS0g...
 * Ends with =
   * Decode from Base64
@@ -87,42 +69,30 @@ Answer: Unpack this BCD
 ```
 Answer: Let's make this a bit trickier...
 ```
-
 ## Task 2 - Spectrograms
-
 ### Question: Download the file
 * Upload the audio file to Audacity
 * Select Spectrogram
 ```
 Answer: Super Secret Message
 ```
-
 ## Task 3 - Steganography
-
 ### Question: Decode the image to reveal the answer.
 * Upload the JPG file to a steganographic decoder
 ```
 Answer: SpaghettiSteg
 ```
-
 ## Task 4 - Security through obscurity
-
 ### Question: Download and get 'inside' the file. What is the first filename & extension?
-```
-binwalk -e meme.jpg
-```
+```binwalk -e meme.jpg```
 * This command extract information from the downloaded image file
   * One file stands out
 ```
 Answer: hackerchat.png
 ```
-
 ---
-
 ### Question: Get inside the archive and inspect the file carefully. Find the hidden text.
-```
-strings hackerchat.png
-```
+```strings hackerchat.png```
 * This command pulls strings from the specified file
 ```
 Answer: "AHH_YOU_FOUND_ME!" 
